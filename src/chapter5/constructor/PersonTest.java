@@ -4,7 +4,7 @@ public class PersonTest {
 
 	public static void main(String[] args) {
 		
-		//Person p1 = new Person();
+		// Person p1 = new Person();
 		Person p1 = new Person("홍길동");
 		p1.height = 50.f;
 		
