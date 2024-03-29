@@ -9,11 +9,10 @@ class Student {
 		this.studentId = studentId;
 		this.studentName = studentName;
 	}
-
-	@Override
-	public String toString() {
-		return studentId + "," + studentName;
-	}
+     
+	/*
+	 * @Override public String toString() { return studentId + "," + studentName; }
+	 */
 	@Override
 	public int hashCode() {
 		System.out.println("hashCode()");
@@ -86,9 +85,9 @@ public class EqualsTest {
 		System.out.println(st3);
 		
 		//해쉬코드값 : 힙영역의 기억장소를 가리킬 때 사용하는 코드값
-		System.out.println(st1.hashCode()); //1129670968
-		System.out.println(st2.hashCode()); //1129670968
-		System.out.println(st3.hashCode()); //1023714065
+		System.out.println(st1.hashCode()); //1694819250
+		System.out.println(st2.hashCode()); //1694819250
+		System.out.println(st3.hashCode()); //1365202186
 	}
 
 }
